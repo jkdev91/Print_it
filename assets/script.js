@@ -43,13 +43,11 @@ function displayDot() {
 		
 		let nouvelElement = document.createElement("div");// creer un element div
 		nouvelElement.classList.add("dot")
-		// nouvelElement.classList.add("dot_selected")
 	
-		
 		parentElement.appendChild(nouvelElement); // Ajouter le nouvel élément au parent
 
 		if(i == index){
-			nouvelElement.classList.add('dot_selected')
+			nouvelElement.classList.add('dot_selected')	
 		}
 	}	
 }
